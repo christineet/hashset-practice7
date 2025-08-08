@@ -11,15 +11,14 @@ public class Main {
         // (некоторые логины появляются несколько раз,
         // это значит, что пользователь посещал сайт несколько раз в разное время)
         siteVisitsList.add("legioner");
-        siteVisitsList.add("hanna7");
-        siteVisitsList.add("lono_sun");
-        siteVisitsList.add("hurocan");
-        siteVisitsList.add("indie_woker");
-        siteVisitsList.add("sonya2035");
-        siteVisitsList.add("lono_sun");
+        siteVisitsList.add("anna9");
+        siteVisitsList.add("unique_sun");
+        siteVisitsList.add("hurricane");
+        siteVisitsList.add("walker");
+        siteVisitsList.add("sonya1997");
+        siteVisitsList.add("unique_sun");
         siteVisitsList.add("legioner");
-        siteVisitsList.add("hanna7");
-        siteVisitsList.add("futur100");
+        siteVisitsList.add("anna9");
         siteVisitsList.add("legioner");
 
         // выведем статистику посещения сайта на консоль
@@ -34,7 +33,7 @@ public class Main {
         System.out.println("Всего уникальных пользователей: " + uniqueVisitors.size());
 
         System.out.println("Пуст ли список? " + uniqueVisitors.isEmpty());
-         uniqueVisitors.remove("hanna7");
+         uniqueVisitors.remove("anna9");
          System.out.println("Теперь количество уникальных пользователей равно: " + uniqueVisitors.size());
     }
 }
